@@ -5,11 +5,11 @@ ticket_info = (2001, "Inna", "INNAM", "inna@whitecliffe.co.nz", "My monitor stop
 
 ticket_number, staff_name, staff_id, email_address, description, response, ticket_status = ticket_info
 
-# We can either print the command as one lot but that won't show any title for the value.
+# We can either print the command as one lot but that won't show any title for the Element.
 # for ticket_info in ticket_info:
 #print(ticket_info)
 
-# Or can print the command individually if we need to select any heading for the value.
+# Or can print the command individually if we need to select any title for the Element.
 print("Ticket Number =", ticket_number)
 print("Staff Name =", staff_name)
 print("Staff ID = ", staff_id)
