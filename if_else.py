@@ -10,8 +10,8 @@ fav_food = input("What is your Fav food\n")
 if fav_food == "Pasta":
     spices = input("Is it cooked with enough spices?\n")
     if spices == "No":
-        print("This is not yummy")
+        print("This " + fav_food + " is not yummy")
         exit()
     else:
-        print("This is Yummy")
+        print("This " + fav_food + " is Yummy")
 
